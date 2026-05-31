@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+numpy
+groq
+python-docx
+vaderSentiment
+scikit-learn

@@ -1,0 +1,29 @@
+# Data files (too large for GitHub)
+data/raw/
+data/*.csv
+data/raw/*.csv
+
+# Processed data (regenerated from Colab)
+app/data/theme_results.csv
+app/data/sentiment_results.csv
+app/data/attrition_results.csv
+app/data/risk_results.csv
+app/data/executive_insights.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# System
+.DS_Store
+Thumbs.db
+*.log
