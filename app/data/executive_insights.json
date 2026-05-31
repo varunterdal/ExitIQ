@@ -1,0 +1,95 @@
+{
+  "total_reviews_analyzed": 10000,
+  "overall_sentiment": {
+    "positive_pct": 85.0,
+    "negative_pct": 12.6,
+    "neutral_pct": 2.4
+  },
+  "top_themes": [
+    {
+      "theme": "Compensation",
+      "count": 4007
+    },
+    {
+      "theme": "Culture",
+      "count": 3791
+    },
+    {
+      "theme": "Career Growth",
+      "count": 3393
+    },
+    {
+      "theme": "Management",
+      "count": 3206
+    },
+    {
+      "theme": "Work Life Balance",
+      "count": 3096
+    }
+  ],
+  "attrition_rate": 16.1,
+  "top_attrition_drivers": [
+    {
+      "feature": "MonthlyIncome",
+      "importance": 0.1612
+    },
+    {
+      "feature": "Age",
+      "importance": 0.1359
+    },
+    {
+      "feature": "YearsAtCompany",
+      "importance": 0.1017
+    },
+    {
+      "feature": "NumCompaniesWorked",
+      "importance": 0.0772
+    },
+    {
+      "feature": "OverTime_Encoded",
+      "importance": 0.0721
+    }
+  ],
+  "risk_distribution": [
+    {
+      "risk_level": "Medium Risk",
+      "count": 673
+    },
+    {
+      "risk_level": "Low Risk",
+      "count": 490
+    },
+    {
+      "risk_level": "High Risk",
+      "count": 307
+    }
+  ],
+  "dept_attrition": [
+    {
+      "department": "Human Resources",
+      "attrition_count": 12,
+      "total": 63,
+      "attrition_rate": 19.0
+    },
+    {
+      "department": "Research & Development",
+      "attrition_count": 133,
+      "total": 961,
+      "attrition_rate": 13.8
+    },
+    {
+      "department": "Sales",
+      "attrition_count": 92,
+      "total": 446,
+      "attrition_rate": 20.6
+    }
+  ],
+  "avg_overall_rating": 3.67,
+  "health_score": 79.8,
+  "health_label": "Needs Attention",
+  "health_color": "yellow",
+  "cost_of_attrition": 9247168.0,
+  "attrition_count": 237,
+  "avg_salary": 78035.0,
+  "cost_per_employee": 39018.0
+}
